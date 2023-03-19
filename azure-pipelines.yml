@@ -17,9 +17,6 @@ stages:
   - job: BuildJob
     pool: myAgentPool
     steps:
-    - task: UsePythonVersion@0   
-      inputs:
-        versionSpec: '3.10'
 
     - script: |
         export PATH=$HOME/.local/bin:$PATH
