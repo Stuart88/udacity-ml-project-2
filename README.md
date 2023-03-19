@@ -1,3 +1,5 @@
+![python integration workflow](https://github.com/Stuart88/udacity-ml-project-2/actions/workflows/pythonapp.yml/badge.svg)
+
 # Overview
 
 This is a Flask ML web application project, with a makefile prepared for linting and testing in Continuous Integration, and an Azure yml file prepared for Continuous Deployment in an Azure pipeline. 
