@@ -8,7 +8,7 @@ This is a Flask ML web application project, with a makefile prepared for linting
 https://trello.com/b/ApLkvcC4/udacity-devops-course
 
 #### Spreadsheet
-https://github.com/Stuart88/udacity-ml-project/blob/main/project-management-template.xlsx
+https://github.com/Stuart88/udacity-ml-project-2/blob/main/project-management-template.xlsx
 
 ## Instructions
 
