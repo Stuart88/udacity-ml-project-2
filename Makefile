@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.udacity-ml-project
+	python3 -m venv ~/.udacity-ml-project-2
 
 install:
 	pip install --upgrade pip &&\

@@ -64,7 +64,7 @@ Now you will be able to clone the project from your GitHub account into the Azur
 Copy the SSH clone path from your GitHub repository, then run the Azure bash command to clone it into your cloud terminal:
 
 ```bash
-git clone git@github.com:xxgitaccountxxx/udacity-ml-project.git
+git clone git@github.com:xxgitaccountxxx/udacity-ml-project-2.git
 ```
 
 Be sure to use the SSH clone url, not HTTPS
@@ -81,13 +81,13 @@ It is important to use a virtual environment to ensure the configuration and too
 Navigate into the project directory:
 
 ```bash
-cd udacity-ml-project
+cd udacity-ml-project-2
 ```
 Then run the following commands:
 
 ```bash
 make setup
-source ~/.udacity-ml-project/bin/activate
+source ~/.udacity-ml-project-2/bin/activate
 make all
 ```
 

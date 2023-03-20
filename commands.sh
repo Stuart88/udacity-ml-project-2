@@ -1,7 +1,10 @@
-# similar to the locustfile.py, this commands script is
-# mentioned as a requirment in the project rubric 
-# but no part of the project instructions tells us about it,
-# so I have no idea what it is for. 
-# Here is a bare minumum implementation as per the rubric...
+# A script for cloning, building and deploying the 
+# project automatically， after ssh keys have been generated
 
+git clone git@github.com:<REDACTED>/udacity-ml-project-2.git
+cd udacity-ml-project-2
+git pull
+make setup
+source ~/.udacity-ml-project-2/bin/activate
+make all
 az webapp up -n udacityassessmentappmlstuartca
